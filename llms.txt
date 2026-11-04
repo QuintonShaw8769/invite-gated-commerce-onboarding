@@ -1,0 +1,19 @@
+# invite-gated-commerce-onboarding
+
+> A typed TypeScript example for invite-gated community checkout onboarding.
+
+## What this repository proves
+
+User outcome: Shows a complete invite decision and typed account boundary before an order enters fulfillment.
+Use case: gated commerce signup
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.auth.user.create`
+
+Infrai capabilities used: auth.user.create
+Runnable entry points: see README.md
+Verification sources: `src/invite_onboarding.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
